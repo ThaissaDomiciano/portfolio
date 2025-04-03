@@ -1,0 +1,157 @@
+.about {
+  padding: 3rem;
+  color: white;
+  background-image: url('/detail-about.png');
+  background-position: bottom left;
+  background-size: 15%;
+  background-repeat: no-repeat;
+}
+
+.section-title {
+  font-family: 'VT323', monospace;
+  font-size: 3rem;
+  margin: 0 0 2rem 6rem;
+  display: inline-flex;
+  position: relative; 
+  align-items: center;
+}
+
+.line {
+  width: 40rem;
+  height: 2px;
+  background-color: #64FFDA;
+  margin-left: 6rem;
+}
+
+.about-line-image {
+  width: 4rem;
+  margin-left: 8rem;
+}
+
+.section-about {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.skills,
+.work,
+.education {
+  padding: 2rem;
+  border: 2px solid #64FFDA;
+  border-radius: 1.5rem;
+  flex: 1;
+  font-family: 'VT323', monospace;
+  font-size: 2.3rem;
+  color: #64FFDA;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.li-title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+.li-text {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  color: #ffff;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .section-title {
+    font-size: 2.5rem;
+    margin: 0 0 2rem 3rem;
+  }
+
+  .line {
+    width: 30rem;
+    margin-left: 3rem;
+  }
+
+  .about-line-image {
+    width: 3rem;
+    margin-left: 6rem;
+  }
+
+  .section-about {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .skills,
+    .work,
+      .education {
+        font-size: 2rem;
+        padding: 1.5rem;
+      }
+}
+
+@media (max-width: 800px) {
+  .section-title {
+    font-size: 2rem;
+    margin: 0 0 1.5rem 2rem;
+  }
+
+  .line {
+    width: 25rem;
+    margin-left: 2rem;
+  }
+
+  .about-line-image {
+    width: 3rem;
+    margin-left: 4rem;
+  }
+
+  .section-about {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .skills,
+    .work,
+      .education {
+        font-size: 1.8rem;
+        padding: 1rem;
+      }
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 1.8rem;
+    margin: 0 0 1.5rem 1rem;
+  }
+
+  .line {
+    width: 20rem;
+    margin-left: 1rem;
+  }
+
+  .about-line-image {
+    width: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  .section-about {
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  .skills,
+    .work,
+      .education {
+        font-size: 1.6rem;
+        padding: 1rem;
+      }
+}
+

@@ -1,0 +1,161 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  color: white;
+  background-image: url('/public/image-banner.png');
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: right center;
+  margin: 0 5rem;
+  overflow: hidden;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.banner-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  padding-right: 2rem;
+  order: 2; 
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  color: #64ffda;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0; 
+  text-align: right; 
+}
+
+.banner-content p {
+  font-size: 2rem;
+  font-family: 'VT323', monospace;
+  margin-top: 1rem;
+  text-align: right; 
+}
+
+.banner-image {
+  display: flex;
+  position: absolute;
+}
+
+.banner-img {
+  width: 20rem;
+  height: auto;
+}
+
+.banner-detail {
+  position: absolute;
+  top: 100%;
+  width: 4.5rem;
+}
+
+.banner-content h1,
+.banner-content p {
+  margin: 0; 
+  text-align: right; 
+}
+
+@media (max-width: 1200px) {
+  .banner {
+    background-size: 25%;
+    margin: 0 3rem;
+  }
+
+  .banner-content h1 {
+    font-size: 2.5rem;
+    margin: 0 3rem;
+  }
+
+  .banner-content p {
+    font-size: 1.8rem;
+    margin: 0 3rem;
+  }
+
+  .banner-img {
+    width: 15rem;
+  }
+
+  .banner-detail {
+    width: 3.5rem;
+  }
+
+  .banner-content {
+    align-items: flex-end;
+    text-align: right;
+    margin: 0 1rem;
+    order: 2;
+  }
+
+  .banner-image {
+    position: relative;
+    order: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner {
+    background-size: 30%;
+    margin: 0 1rem;
+  }
+
+  .banner-content h1 {
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+
+  .banner-content p {
+    font-size: 1.6rem;
+    margin: 0 1rem;
+  }
+
+  .banner-img {
+    width: 12rem;
+  }
+
+  .banner-detail {
+    width: 3rem;
+  }
+
+  .banner-content {
+    align-items: flex-end; 
+    text-align: right;
+    margin: 0 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner {
+    background-size: 50%;
+    background-position: center;
+    margin: 0 1rem;
+  }
+
+  .banner-content h1 {
+    font-size: 1.8rem;
+    margin: 0 1rem;
+  }
+
+  .banner-content p {
+    font-size: 1.4rem;
+    margin: 0 1rem;
+  }
+
+  .banner-img {
+    width: 10rem;
+  }
+
+  .banner-detail {
+    width: 2.5rem;
+  }
+
+  .banner-content {
+    align-items: flex-end; 
+    text-align: right;
+    margin: 0 1rem;
+  }
+}
