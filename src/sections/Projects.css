@@ -60,6 +60,21 @@
   max-width: 100%;
 }
 
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.github-icon {
+    width: 2rem;
+    margin-right: 1.5rem;
+}
+
+.figma-icon {
+  width: 1.5rem;
+}
+
 @media (max-width: 1200px) {
   .section-title {
     font-size: var(--font-size-5xl);

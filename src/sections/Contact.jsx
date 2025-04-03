@@ -8,11 +8,11 @@ function Contact() {
       <ul className="contacts">
         <li className="link-title">
           <img src="/linkedin.png" alt="icone do Linkedin" className="icon-linkedin"/>
-          <a href="#">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/thaissa-domiciano-7b5b8431b/">LinkedIn</a>
         </li>
         <li className="link-title">
           <img src="/github.png" alt="icone do Github" className="icon-github"/>
-          <a href="#">GitHub</a>
+          <a href="https://github.com/ThaissaDomiciano">GitHub</a>
         </li>
       </ul>
  
