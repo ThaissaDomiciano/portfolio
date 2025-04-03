@@ -1,5 +1,7 @@
+@import '../components/variables.css';
+
 .about {
-  padding: 3rem;
+  padding: var(--padding-xl);
   color: white;
   background-image: url('/detail-about.png');
   background-position: bottom left;
@@ -8,8 +10,8 @@
 }
 
 .section-title {
-  font-family: 'VT323', monospace;
-  font-size: 3rem;
+  font-family: var(--primary-font);
+  font-size: var(--font-size-6xl);
   margin: 0 0 2rem 6rem;
   display: inline-flex;
   position: relative; 
@@ -19,7 +21,7 @@
 .line {
   width: 40rem;
   height: 2px;
-  background-color: #64FFDA;
+  background-color: var(--primary-color);
   margin-left: 6rem;
 }
 
@@ -37,18 +39,18 @@
 .skills,
 .work,
 .education {
-  padding: 2rem;
-  border: 2px solid #64FFDA;
+  padding: var(--padding-lg);
+  border: 2px solid var(--primary-color);
   border-radius: 1.5rem;
   flex: 1;
-  font-family: 'VT323', monospace;
-  font-size: 2.3rem;
-  color: #64FFDA;
+  font-family: var(--primary-font);
+  font-size: var(--font-size-4xl);
+  color: var(--primary-color);
 }
 
 ul {
   list-style: none;
-  padding: 0;
+  padding: var(--padding-none);
 }
 
 li {
@@ -56,21 +58,21 @@ li {
 }
 
 .li-title {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1.5rem;
-  color: #ffff;
+  font-family: var(--secondary-font);
+  font-size: var(--font-size-lg);
+  color: var(--secondary-color);
 }
 
 .li-text {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1rem;
-  color: #ffff;
+  font-family: var(--secondary-font);
+  font-size: var(--font-size-xs);
+  color: var(--secondary-color);
   text-align: center;
 }
 
 @media (max-width: 1200px) {
   .section-title {
-    font-size: 2.5rem;
+    font-size: var(--font-size-5xl);
     margin: 0 0 2rem 3rem;
   }
 
@@ -92,14 +94,14 @@ li {
   .skills,
     .work,
       .education {
-        font-size: 2rem;
-        padding: 1.5rem;
+        font-size: var(--font-size-3xl);
+        padding: var(--padding-md);
       }
 }
 
 @media (max-width: 800px) {
   .section-title {
-    font-size: 2rem;
+    font-size: var(--font-size-3xl);
     margin: 0 0 1.5rem 2rem;
   }
 
@@ -121,14 +123,14 @@ li {
   .skills,
     .work,
       .education {
-        font-size: 1.8rem;
-        padding: 1rem;
+        font-size: var(--font-size-2xl);
+        padding: var(--padding-sm);
       }
 }
 
 @media (max-width: 600px) {
   .section-title {
-    font-size: 1.8rem;
+    font-size: var(--font-size-2xl);
     margin: 0 0 1.5rem 1rem;
   }
 
@@ -150,8 +152,8 @@ li {
   .skills,
     .work,
       .education {
-        font-size: 1.6rem;
-        padding: 1rem;
+        font-size: var(--font-size-xl);
+        padding: var(--padding-sm);
       }
 }
 

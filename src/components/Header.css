@@ -1,20 +1,22 @@
+@import './variables.css';
+
 .header {
   width: 100%;
-  padding: 0.5rem;
+  padding: var(--padding-xs);
   text-align: right;
-  font-family: 'VT323', monospace;
+  font-family: var(--primary-font);
   margin-top: 1.5rem;
 }
 .header a {
-  color: #ffffff;
+  color: var(--secondary-color);
   text-decoration: none;
   margin: 0 2rem;
-  font-size: 2rem;
+  font-size: var(--font-size-3xl);
   display: inline-flex;
 }
 
 .header a:hover {
-  color: #64ffda;
+  color: var(--primary-color);
 }
 
 .detail-image {
@@ -32,7 +34,7 @@
 
 @media (max-width: 1024px) {
   .header {
-    padding: 1rem;
+    padding: var(--padding-sm);
     text-align: center;
   }
 
@@ -47,14 +49,14 @@
   }
 
   .header a {
-    font-size: 1.5rem;
+    font-size: var(--font-size-lg);
     margin: 0 1rem;
   }
 }
 
 @media (max-width: 600px) {
   .header {
-    padding: 1rem;
+    padding: var(--padding-sm);
     text-align: center;
   }
   .detail-image {
@@ -69,7 +71,7 @@
   }
 
   .header a {
-    font-size: 1.2rem;
+    font-size: var(--font-size-sm);
     margin: 0 0.5rem;
   }
 }

@@ -1,12 +1,14 @@
+@import '../components/variables.css';
+
 .banner {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   height: 100vh;
-  color: white;
+  color: var(--secondary-color);
   background-image: url('/public/image-banner.png');
   background-repeat: no-repeat;
-  background-size: 25%;
+  background-size: 20%;
   background-position: right center;
   margin: 0 5rem;
   overflow: hidden;
@@ -19,21 +21,21 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end; 
-  padding-right: 2rem;
+  padding-right: var(--padding-lg);
   order: 2; 
 }
 
 .banner-content h1 {
-  font-size: 3rem;
-  color: #64ffda;
-  font-family: 'Roboto Mono', monospace;
+  font-size: var(--font-size-6xl);
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
   margin: 0; 
   text-align: right; 
 }
 
 .banner-content p {
-  font-size: 2rem;
-  font-family: 'VT323', monospace;
+  font-size: var(--font-size-3xl);
+  font-family: var(--primary-font);
   margin-top: 1rem;
   text-align: right; 
 }
@@ -67,12 +69,12 @@
   }
 
   .banner-content h1 {
-    font-size: 2.5rem;
+    font-size: var(--font-size-5xl);
     margin: 0 3rem;
   }
 
   .banner-content p {
-    font-size: 1.8rem;
+    font-size: var(--font-size-2xl);
     margin: 0 3rem;
   }
 
@@ -104,12 +106,12 @@
   }
 
   .banner-content h1 {
-    font-size: 2rem;
+    font-size: var(--font-size-3xl);
     margin: 0 1rem;
   }
 
   .banner-content p {
-    font-size: 1.6rem;
+    font-size: var(--font-size-xl);
     margin: 0 1rem;
   }
 
@@ -136,12 +138,12 @@
   }
 
   .banner-content h1 {
-    font-size: 1.8rem;
+    font-size: var(--font-size-2xl);
     margin: 0 1rem;
   }
 
   .banner-content p {
-    font-size: 1.4rem;
+    font-size: var(--font-size-md);
     margin: 0 1rem;
   }
 

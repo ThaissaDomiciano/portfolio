@@ -5,6 +5,7 @@ import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 import Banner from './sections/Banner';
 
+
 function App() {
   return (
     <div className="app">

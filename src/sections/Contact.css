@@ -1,5 +1,7 @@
+@import '../components/variables.css';
+
 .contact {
-  padding: 2rem;
+  padding: var(--padding-lg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +10,7 @@
 
 .contacts {
   display: flex;
-  padding: 10rem;
+  padding: var(--padding-4xl);
   width: 50%;
   flex-direction: column;
   align-items: center;
@@ -21,10 +23,10 @@
 
 
 .contact-title {
-  font-family: 'VT323', monospace;
+  font-family: var(--primary-font);
   font-weight: 300;
-  color: #fff;
-  font-size: 3rem;
+  color: var(--secondary-color);
+  font-size: var(--font-size-6xl);
 }
 
 .detail-contact {
@@ -35,8 +37,8 @@
 
 
 .link-title {
-  font-family: 'Roboto Mono', monospace;
-  color: #fff;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
   display: inline-flex;
   position: relative; 
   align-items: center;
@@ -54,10 +56,10 @@
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: var(--secondary-color);
 }
 
 a:hover {
-  color: #64FFDA;
+  color: var(--primary-color);
 }
 

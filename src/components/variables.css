@@ -1,0 +1,33 @@
+:root {
+    /* colors */
+    --primary-color: #64ffda;
+    --secondary-color: #fff;
+
+    /* fonts */
+    --primary-font: 'VT323', monospace;
+    --secondary-font: 'Roboto Mono', monospace;
+
+    /* font-sizes */
+    --font-size-xs: 1rem;   
+    --font-size-sm: 1.2rem; 
+    --font-size-md: 1.4rem; 
+    --font-size-lg: 1.5rem; 
+    --font-size-xl: 1.6rem; 
+    --font-size-2xl: 1.8rem;
+    --font-size-3xl: 2rem;  
+    --font-size-4xl: 2.3rem; 
+    --font-size-5xl: 2.5rem; 
+    --font-size-6xl: 3rem;   
+    --font-size-7xl: 3.5rem; 
+
+    /* padding */
+    --padding-none: 0;
+    --padding-xs: 0.5rem;
+    --padding-sm: 1rem;
+    --padding-md: 1.5rem;
+    --padding-lg: 2rem;
+    --padding-xl: 3rem;
+    --padding-2xl: 4rem;
+    --padding-3xl: 6rem;
+    --padding-4xl: 10rem;
+}

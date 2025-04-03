@@ -1,12 +1,14 @@
+@import '../components/variables.css';
+
 .projects {
-  padding: 6rem;
+  padding: var(--padding-3xl);
 }
 
 .section-title {
   display: flex;
   justify-content: end;
   margin: 1rem 2rem 2rem 0;
-  color: #fff;
+  color: var(--secondary-color);
 }
 
 .title-image {
@@ -15,9 +17,9 @@
 }
 
 .project-title {
-  color: #64FFDA;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-size: var(--font-size-lg);
 }
 
 .section-projects {
@@ -30,9 +32,9 @@
 .fitpro,
 .disneyCharacters,
 .eiTriz {
-  border: 2px solid #64FFDA;
+  border: 2px solid var(--primary-color);
   border-radius: 1.5rem;
-  padding: 3rem;
+  padding: var(--padding-xl);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   min-width: 300px;
 }
@@ -41,13 +43,13 @@
 .disneyCharacters:hover,
 .eiTriz:hover {
   transform: translateY(-10px);
-  box-shadow: 0 5px 15px #64FFDA;
+  box-shadow: 0 5px 15px var(--primary-color);
 }
 
 .project-description {
-  font-family: 'Roboto Mono', monospace;
+  font-family: var(--secondary-font);
   color: #fff;
-  font-size: 1rem;
+  font-size: var(--font-size-xs);
 }
 
 .fitpro-image,
@@ -60,16 +62,16 @@
 
 @media (max-width: 1200px) {
   .section-title {
-    font-size: 2.5rem;
+    font-size: var(--font-size-5xl);
     margin: 0 2rem 2rem 0;
   }
 
   .project-title {
-    font-size: 1.4rem;
+    font-size: var(--font-size-md);
   }
 
   .project-description {
-    font-size: 1rem;
+    font-size: var(--font-size-xs);
   }
   .section-projects {
     gap: 1.5rem;
@@ -79,23 +81,23 @@
   .fitpro,
   .disneyCharacters,
   .eiTriz {
-    font-size: 1.8rem;
+    font-size: var(--font-size-2xl);
     min-width: 300px;
   }
 }
 
 @media (max-width: 800px) {
   .projects {
-    padding: 4rem;
+    padding: var(--padding-2xl);
   }
 
   .section-title {
-    font-size: 2rem;
+    font-size: var(--font-size-3xl);
     margin: 0 1rem 1rem 0;
   }
   
   .project-title {
-    font-size: 1.2rem;
+    font-size: var(--font-size-sm);
   }
 
   .section-projects {
@@ -106,23 +108,23 @@
   .fitpro,
   .disneyCharacters,
   .eiTriz {
-    font-size: 1.6rem;
+    font-size: var(--font-size-xl);
     min-width: 100%;
   }
 }
 
 @media (max-width: 600px) {
   .projects {
-    padding: 3rem;
+    padding: var(--padding-xl);
   }
 
   .section-title {
-    font-size: 1.8rem;
+    font-size: var(--font-size-2xl);
     margin: 0 1rem 1rem 0;
   }
 
   .project-title {
-    font-size: 1rem;
+    font-size: var(--font-size-xs);
   }
 
   .section-projects {
@@ -133,7 +135,7 @@
   .fitpro,
   .disneyCharacters,
   .eiTriz {
-    font-size: 1.4rem;
-    padding: 1rem;
+    font-size: var(--font-size-md);
+    padding: var(--padding-sm);
   }
 }
