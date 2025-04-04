@@ -4,7 +4,7 @@ import './Contact.css';
 function Contact() {
   return (
     <section id="contact" className="contact">
-      <h3 className="contact-title">Contact</h3>
+      <h3 className="contact-title">Contato</h3>
       <ul className="contacts">
         <li className="link-title">
           <img src="/linkedin.png" alt="icone do Linkedin" className="icon-linkedin"/>
