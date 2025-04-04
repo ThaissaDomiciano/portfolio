@@ -135,6 +135,7 @@
     background-size: 50%;
     background-position: center;
     margin: 0 1rem;
+    position: relative;
   }
 
   .banner-content h1 {
@@ -148,7 +149,7 @@
   }
 
   .banner-img {
-    width: 10rem;
+    width: 8rem;
   }
 
   .banner-detail {
@@ -156,8 +157,9 @@
   }
 
   .banner-content {
-    align-items: flex-end; 
-    text-align: right;
-    margin: 0 1rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-25%);
   }
 }
