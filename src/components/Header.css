@@ -7,16 +7,34 @@
   font-family: var(--primary-font);
   margin-top: 1.5rem;
 }
-.header a {
+.nav-link {
   color: var(--secondary-color);
   text-decoration: none;
   margin: 0 2rem;
   font-size: var(--font-size-3xl);
-  display: inline-flex;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
 }
 
-.header a:hover {
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0.2rem;
+  background-color: var(--primary-color);
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.nav-link:hover {
   color: var(--primary-color);
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
 
 .detail-image {
@@ -52,6 +70,10 @@
     font-size: var(--font-size-lg);
     margin: 0 1rem;
   }
+
+  .nav-link::after {
+    height: 0.1rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -73,5 +95,8 @@
   .header a {
     font-size: var(--font-size-sm);
     margin: 0 0.5rem;
+  }
+  .nav-link::after {
+    display: none;
   }
 }

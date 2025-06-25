@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="banner-content">
         <p>Bem vindos ao meu portfólio!</p>
         <h1>THAISSA CAMPOS DOMICIANO</h1>
-        <p>Desenvolvimento Front-End</p>
+        <p>Desenvolvimento de Software</p>
       </div>
       <div className="banner-image">
         <img src="/photo.png" className="banner-img"/>

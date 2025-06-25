@@ -14,9 +14,8 @@ function About() {
           Habilidades
           <ul>
             <li className="li-title">JavaScript</li>
-            <li className="li-title">React</li>
-            <li className="li-title">HTML</li>
-            <li className="li-title">CSS</li>
+            <li className="li-title">ReactJS</li>
+            <li className="li-title">React Native</li>
           </ul>
         </div>
         <div className="education">

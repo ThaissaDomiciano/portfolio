@@ -31,7 +31,7 @@
 }
 
 .fitpro,
-.disneyCharacters,
+.acadly,
 .eiTriz {
   border: 2px solid var(--primary-color);
   border-radius: 1.5rem;
@@ -41,7 +41,7 @@
 }
 
 .fitpro:hover,
-.disneyCharacters:hover,
+.acadly:hover,
 .eiTriz:hover {
   transform: translateY(-10px);
   box-shadow: 0 5px 15px var(--primary-color);
@@ -54,7 +54,7 @@
 }
 
 .fitpro-image,
-.disneyCharacters-image,
+.acadly-image,
 .eiTriz-image {
   width: 100%;
   height: auto;
@@ -95,7 +95,7 @@
   }
 
   .fitpro,
-  .disneyCharacters,
+  .acadly,
   .eiTriz {
     font-size: var(--font-size-2xl);
     min-width: 300px;
@@ -123,7 +123,7 @@
   }
 
   .fitpro,
-  .disneyCharacters,
+  .acadly,
   .eiTriz {
     font-size: var(--font-size-xl);
     min-width: 100%;
@@ -151,7 +151,7 @@
   }
 
   .fitpro,
-  .disneyCharacters,
+  .acadly,
   .eiTriz {
     font-size: var(--font-size-md);
     padding: var(--padding-sm);

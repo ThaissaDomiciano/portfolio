@@ -14,9 +14,17 @@ function Projects() {
         <div className="fitpro">
           <img src="/fitpro.png" className="fitpro-image" />
           <h3 className="project-title">FitPro</h3>
-          <p className="project-description">FitPro é um e-commerce focado em produtos fitness.
-            O projeto foi desenvolvido utilizando HTML, JavaScript e SCSS para proporcionar uma experiência moderna
-            e responsiva, alternando também para modo noturno.</p>
+
+
+            <p className="project-description">Projeto de e-commerce de uma loja de produtos fitness.
+              Proporciona uma experiência responsiva e moderna, com funcionalidades de visualização de produtos 
+              e modo noturno.
+            </p>
+            <p className="project-description">Tecnologias utilizadas: </p>
+             <ul className="project-description list">
+            <li>HTML e SCSS</li>
+            <li>JavaScript</li>
+          </ul>
           
           <div className="icons">
           
@@ -28,18 +36,25 @@ function Projects() {
           </a>
           </div>
         </div>
-        <div className="disneyCharacters">
-          <img src="/disneyCharacters.png" className="disneyCharacters-image" />
-          <h3 className="project-title">Disney Characters</h3>
-          <p className="project-description">Este projeto é uma aplicação React Native que permite pesquisar
-            personagens da Disney. A aplicação utiliza a Disney API para buscar informações sobre personagens
-            com base no nome inserido pelo usuário.</p>
+        <div className="acadly">
+          <img src="/acadly.png" className="acadly-image" />
+          <h3 className="project-title">Acadly</h3>
+          <p className="project-description">Projeto de gestão de atividades acadêmicas desenvolvido nas versões web
+             e mobile, com funcionalidades voltadas para professores e alunos. A plataforma permite criação de turmas,
+              tarefas, lançamento de notas, controle de presença, notificações e visualização de desempenho.</p>
+              <p className="project-description">Tecnologias utilizadas: </p>
+          <ul className="project-description list">
+            <li>Back-end: Java com Spring Boot</li>
+            <li>Front-end web: ReactJS</li>
+            <li>App mobile: React Native + Expo</li>
+          </ul>
+          
             <div className="icons">
 
-            <a href="https://github.com/ThaissaDomiciano/disneyCharacters">
+            <a href="https://github.com/ThaissaDomiciano/acadly-complete">
             <img src="/github.png" className="github-icon"/> </a>
 
-            <a href="https://www.figma.com/design/4XioBpOaPeitdPivQtuxLD/disneyCharacters?node-id=0-1&p=f&t=iaQXefPwCQW8YZq1-0">
+            <a href="https://www.figma.com/design/je3CozP4cOuJ0S8P6vGKEL/Acadly?node-id=0-1&p=f&t=yagtPJbQVOp365m9-0">
            <img src="/figma.png"  className="figma-icon" />
           </a>
             
@@ -48,8 +63,12 @@ function Projects() {
         <div className="eiTriz">
           <img src="/eiTriz.png" className="eiTriz-image" />
           <h3 className="project-title">EiTriz</h3>
-          <p className="project-description">Esse projeto é uma assistente virtual pensada para o setor industrial.
-            Desenvolvida no figma, durante o projeto Gran Prix Senai 2024, onde conquistamos o segundo lugar.</p>
+            <p className="project-description">EiTriz foi desenvolvido durante o projeto Gran Prix 2024, criado
+              pelo Senai, onde meu grupo consquistou o segundo lugar na categoria Indústria 4.0 com o protótipo e requisitos 
+              de uma assistente virtual voltada para a indústria. O projeto foi desenvolvido no Figma e tem como objetivo 
+              auxiliar os usuário na busca de informações sobre a empresa, produtos e serviços, além de fornecer
+               suporte técnico para os funcionários.</p>
+            
             <div className="icons">
             <a href="https://www.figma.com/design/BQNWbMmQX29vbviotGWqTt/Projeto-Grand-Prix?node-id=0-1&p=f&t=4206R1935NmzNuB2-0">
            <img src="/figma.png"  className="figma-icon" />
