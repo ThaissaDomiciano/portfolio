@@ -11,7 +11,7 @@ function Projects() {
       </div>
       <div className="section-projects">
      
-        <div className="fitpro">
+        {/* <div className="fitpro">
           <img src="/fitpro.png" className="fitpro-image" />
           <h3 className="project-title">FitPro</h3>
 
@@ -34,6 +34,28 @@ function Projects() {
           <a href="https://www.figma.com/design/SbzYbLIU8WuQoLCWMskeuH/fitpro?node-id=0-1&p=f&t=GhIuXbUJ9r1yCSDQ-0">
            <img src="/figma.png"  className="figma-icon" />
           </a>
+          </div>
+        </div> */}
+        <div className="gestao">
+          <img src="/gestao.png" className="gestao-image" />
+          <h3 className="project-title">Gestão de Benefícios</h3>
+
+
+            <p className="project-description">Projeto para gestão de benefícios. Pensado para transformar a gestão interna através da digitalização e automação de processos. Unificando processos, reduzindo erros, acelerando aprovações e agendamentos e melhorando o diálogo entre gestão e colaborador.  
+            </p>
+            <p className="project-description">Tecnologias utilizadas: </p>
+             <ul className="project-description list">
+            <li>Next.js</li>
+            <li>TailwindCSS</li>
+            <li>Shadcn UI</li>
+            <li>Deploy Vercel</li>
+          </ul>
+          
+          <div className="icons">
+          
+           <a href="https://github.com/ThaissaDomiciano/gestao-beneficios/">
+           <img src="/github.png" className="github-icon"/> </a>
+           
           </div>
         </div>
         <div className="acadly">

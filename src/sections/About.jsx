@@ -15,6 +15,7 @@ function About() {
           <ul>
             <li className="li-title">JavaScript</li>
             <li className="li-title">ReactJS</li>
+            <li className="li-title">NextJS</li>
             <li className="li-title">React Native</li>
           </ul>
         </div>
@@ -22,18 +23,18 @@ function About() {
           Educação
           <ul>
             <li className="li-title">Análise e Desenvolvimento de Sistemas</li>
-            <li className="li-text">2025 - atualmente | UNIUBE - Universidade de Uberaba</li>
+            <li className="li-text">Jan/2025 - atualmente | UNIUBE - Universidade de Uberaba</li>
             <li className="li-title">Desenvolvimento de Sistemas</li>
-            <li className="li-text">2024 - atualmente | SENAI - Franca</li>
+            <li className="li-text">Jan/2024 - Dez/2025 | SENAI - Franca</li>
             <li className="li-title">Desenvolvimento de Sistemas</li>
-            <li className="li-text">2021 - 2022 | ETEC Pedro Badran</li>
+            <li className="li-text">Jan/2021 - Jul/2022 | ETEC Pedro Badran</li>
           </ul>
         </div>
         <div className="work">
           Experiência Profissional
           <ul>
           <li className="li-title">Usina Alta Mogiana</li>
-          <li className="li-text">2024 - atualmente</li>
+          <li className="li-text">Jan/2024 - atualmente</li>
           <li className="li-text">Aprendiz em Desenvolvimento de Sistemas</li>
           </ul>
         </div>
