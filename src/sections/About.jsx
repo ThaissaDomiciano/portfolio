@@ -25,7 +25,7 @@ function About() {
             <li className="li-title">Análise e Desenvolvimento de Sistemas</li>
             <li className="li-text">Jan/2025 - atualmente | UNIUBE - Universidade de Uberaba</li>
             <li className="li-title">Desenvolvimento de Sistemas</li>
-            <li className="li-text">Jan/2024 - Dez/2025 | SENAI - Franca</li>
+            <li className="li-text">Jan/2024 - Dez/2025 | SENAI - Márcio Bagueira Leal</li>
             <li className="li-title">Desenvolvimento de Sistemas</li>
             <li className="li-text">Jan/2021 - Jul/2022 | ETEC Pedro Badran</li>
           </ul>
